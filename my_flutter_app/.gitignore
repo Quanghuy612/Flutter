@@ -1,0 +1,60 @@
+# Flutter & Dart
+.dart_tool/
+.packages
+.buildlog/
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+.fvm/
+.idea/
+.vscode/
+android/.gradle/
+android/app/build/
+ios/Pods/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/App.framework
+macos/Flutter/ephemeral/
+windows/flutter/ephemeral/
+linux/flutter/ephemeral/
+build/
+coverage/
+*.log
+
+# Firebase & Google Services
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+macos/Runner/GoogleService-Info.plist
+web/firebase-messaging-sw.js
+
+# Firebase Emulators & Config
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+.firebaserc.local
+.env
+.env.*
+.env.local
+
+# Platform-specific
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+*.DS_Store
+*.lock
+*.tmp
+*.bak
+*.old
+
+# Key files and credentials
+**/*.keystore
+**/*.jks
+**/*.pem
+**/*.p12
+**/*.key
+**/*.crt
+
+# Generated plugin registrant
+lib/generated_plugin_registrant.dart
